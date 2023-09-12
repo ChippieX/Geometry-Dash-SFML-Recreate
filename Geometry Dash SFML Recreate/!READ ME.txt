@@ -1,0 +1,26 @@
+Before you make a custom level, here are some things you need to know:
+
+Every character (besides the spaces) corresponds to a grid space. PLEASE keep the spaces in when you 
+edit this, they are needed so that the code knows when to move on to another grid space.
+
+The current key for all of the objects in the game goes as follows:
+s: the default spike
+b: the default block
+h: the flat spike
+-: empty space. The program will not work if there is not exactly a 10x1000 grid in the text file, 
+so these are used to fill in the extra space. Don't get rid of them unless you are replacing them 
+with one of the objects listed above.
+
+The level you want to load into the game must be named exactly this: custom level.txt
+The song you want to load into the game must be named exactly this: custom song.ogg
+If you had an mp3 or some other audio file and you renamed it to a .ogg it will not work. 
+You need to convert it to an ogg file. There are several free online converters that you can use, 
+and they don’t take very long.
+
+You can have several extra text and audio files in the same folder as the levels and it won’t affect anything.
+
+I strongly discourage using custom images to replace the icon, spikes, background, etc. You can do it if you are
+brave, determined, and/or stupid, but it can easily get out of control and mess up the visuals.
+
+thanks for reading,
+-ChippieX
